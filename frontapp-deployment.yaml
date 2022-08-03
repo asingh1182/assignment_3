@@ -30,7 +30,4 @@ spec:
           value: dns
         ports:
         - containerPort: 80
-      volumes:
-        - name: pv-claim
-          persistentVolumeClaim:
-            claimName: pv-claim
+    
