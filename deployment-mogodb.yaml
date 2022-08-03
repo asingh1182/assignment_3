@@ -35,5 +35,5 @@ spec:
       volumes:
         - name: pv-claim
           persistentVolumeClaim:
-            claimName: pv-claim
+            claimName: pvchostpath
   
